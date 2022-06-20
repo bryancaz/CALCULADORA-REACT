@@ -14,10 +14,10 @@ const ids = {
   2: 'dos', 
   3: 'tres', 
   0: 'cero',
-  '/': 'division', 
-  '*': 'multiplicacion', 
-  '-': 'resta', 
-  '+': 'suma'
+  '/': 'DIVISION', 
+  '*': 'MULTIPLICACION', 
+  '-': 'RESTA', 
+  '+': 'SUMA'
 }
 
 const App = () => {
