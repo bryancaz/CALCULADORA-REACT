@@ -40,6 +40,14 @@ body {
   width: 100%;
 }
 
+/* .display small {
+  color: #EE9406;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+} */
+
 .nums-container {
   width: 75%;
 }
