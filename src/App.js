@@ -34,7 +34,7 @@ const App = () => {
       }
 
       case '=': {
-        const evaluated = igual(calc);
+        const evaluated = calc.eval(calc);
         console.log(evaluated)
         setCalc(evaluated);
         break;
