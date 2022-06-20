@@ -34,14 +34,14 @@ const App = () => {
       }
 
       case '=': {
-        const evaluated = calc.eval(calc);
+        const evaluated = calc.evaluated(calc);
         console.log(evaluated)
         setCalc(evaluated);
         break;
       }
 
       case '.': {
-        const splitted = calc.split('/', '*', '-', '+');
+        const splitted = calc.split(['/', '*', '-', '+']);
         const last = splitted.slice(-1)[0];
         if(!last.includes('.')) {
             setCalc(calc +'.')
